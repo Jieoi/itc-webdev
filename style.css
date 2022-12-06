@@ -413,6 +413,68 @@ a:link {
 }
 
 /*--------------------------------------------------------------
+ SIGN UP FOR EVENTS 
+--------------------------------------------------------------*/
+.events {
+  width: 100%;
+  background: #fef5f5;
+  border-bottom: 2px solid #fedcdc;
+  margin-right: -72px;
+  padding-top: 0;
+}
+
+.events .event{
+  box-shadow:none;
+  background:#fff;
+  border-radius: 10px;
+  padding: 30px 30px 50px 30px;
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  justify-content: space-evenly;
+}
+
+.events .event:hover{
+  box-shadow: 0 2px 10px 0 #fedcdcd7;
+  transform: rotate(0) scale(1.05);
+}
+
+.events .event img{
+    display: block;
+    border-radius: 5%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.events .event .name{
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+.events .event .desc{
+    padding: 20px;
+    text-align: center;
+}
+
+.events .event .btn{
+    border-radius: 10px;
+}
+
+.eventbtn {
+  margin-top: 20px;
+  padding: 6px 60px 6px 60px;
+}
+
+.closedRegistration {
+  text-align: center;
+  color: red;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*--------------------------------------------------------------
  Contact Us
 --------------------------------------------------------------*/
 

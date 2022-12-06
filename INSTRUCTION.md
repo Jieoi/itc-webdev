@@ -47,6 +47,6 @@ Team
 
 Join Us Now
 
-Sign Up for Evenets
+Sign Up for Events
 
 Feedback
