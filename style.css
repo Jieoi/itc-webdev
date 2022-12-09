@@ -729,3 +729,31 @@ a:link {
   text-align: center;
   float: left;
 }
+
+#feedback{
+ position: fixed; 
+ bottom: 10vh;
+ right: 0px;
+ text-align: right;
+ /* width: 50vw; */
+ max-height: 10px;
+ padding: 5px;
+}
+
+#feedback-butt{
+  font-family: 'Mukta', sans-serif;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 10px;
+  border: #212529;
+  border-style: solid;
+  background-color: #54B9C5;
+  color: black;
+  transition: width 2s;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#feedback-butt:hover{
+  opacity: 0.5;
+  box-shadow: 10px 10px 5px black;
+}
